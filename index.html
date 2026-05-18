@@ -7,10 +7,12 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
+
 <body>
 
 <div class="cursor-glow"></div>
@@ -26,6 +28,7 @@
 </div>
 
 <header>
+
   <div class="logo">
     🌊 Kaju
   </div>
@@ -36,9 +39,14 @@
     <a href="#commands">Commands</a>
   </nav>
 
-  <a class="invite-btn" href="#">
+  <a
+    class="invite-btn"
+    href="https://discord.com/oauth2/authorize?client_id=1500005768932622487&permissions=8&integration_type=0&scope=bot+applications.commands"
+    target="_blank"
+  >
     Invite Bot
   </a>
+
 </header>
 
 <section class="hero">
@@ -55,18 +63,25 @@
     </h1>
 
     <p>
-      Fishing, storms, bosses, AI, economy, multiplayer raids,
-      music and progression — all inside Discord.
+      Fishing, storms, bosses, AI, economy,
+      multiplayer raids, music and progression —
+      all inside Discord.
     </p>
 
     <div class="hero-buttons">
-      <a href="#" class="primary-btn">
+
+      <a
+        href="https://discord.com/oauth2/authorize?client_id=1500005768932622487&permissions=8&integration_type=0&scope=bot+applications.commands"
+        class="primary-btn"
+        target="_blank"
+      >
         Add To Discord
       </a>
 
       <a href="#features" class="secondary-btn">
         Explore Features
       </a>
+
     </div>
 
     <div class="hero-stats">
@@ -101,17 +116,26 @@
       </div>
 
       <div class="line">> !fish</div>
+
       <div class="line success">
         Mythic Leviathan caught.
       </div>
 
       <div class="line">> !storm</div>
-      <div class="line danger" id="hero-status">
+
+      <div
+        class="line danger"
+        id="hero-status"
+      >
         Kraken storm detected.
       </div>
 
       <div class="line">> !ai</div>
-      <div class="line info" id="ai-status">
+
+      <div
+        class="line info"
+        id="ai-status"
+      >
         Kaju AI online.
       </div>
 
@@ -121,11 +145,17 @@
 
 </section>
 
-<section id="stats" class="stats-section reveal">
+<section
+  id="stats"
+  class="stats-section reveal"
+>
 
   <div class="section-title">
     <h2>Live Bot Stats</h2>
-    <p>Updated automatically from the bot.</p>
+
+    <p>
+      Updated automatically from the bot.
+    </p>
   </div>
 
   <div class="stats-grid">
@@ -154,72 +184,116 @@
 
 </section>
 
-<section id="features" class="features reveal">
+<section
+  id="features"
+  class="features reveal"
+>
 
   <div class="section-title">
+
     <h2>Features</h2>
-    <p>More than a normal Discord bot.</p>
+
+    <p>
+      More than a normal Discord bot.
+    </p>
+
   </div>
 
   <div class="feature-grid">
 
     <div class="feature-card glass-card">
       <div class="icon">🎣</div>
+
       <h3>Fishing System</h3>
+
       <p>
-        Catch rare fish, level up and discover hidden mutations.
+        Catch rare fish, level up and
+        discover hidden mutations.
       </p>
     </div>
 
     <div class="feature-card glass-card">
+
       <div class="icon">🌩️</div>
+
       <h3>Storm Events</h3>
+
       <p>
-        Fight global bosses with other players in live raids.
+        Fight global bosses with other
+        players in live raids.
       </p>
+
     </div>
 
     <div class="feature-card glass-card">
+
       <div class="icon">🤖</div>
+
       <h3>AI System</h3>
+
       <p>
-        Interactive AI responses and advanced gameplay support.
+        Interactive AI responses and
+        advanced gameplay support.
       </p>
+
     </div>
 
     <div class="feature-card glass-card">
+
       <div class="icon">💰</div>
+
       <h3>Economy</h3>
+
       <p>
-        Earn coins, trade items and build progression.
+        Earn coins, trade items and
+        build progression.
       </p>
+
     </div>
 
     <div class="feature-card glass-card">
+
       <div class="icon">🎵</div>
+
       <h3>Music</h3>
+
       <p>
-        Powerful music system with queue and playlist support.
+        Powerful music system with queue
+        and playlist support.
       </p>
+
     </div>
 
     <div class="feature-card glass-card">
+
       <div class="icon">⚔️</div>
+
       <h3>Multiplayer</h3>
+
       <p>
-        Compete and cooperate with players globally.
+        Compete and cooperate with
+        players globally.
       </p>
+
     </div>
 
   </div>
 
 </section>
 
-<section id="commands" class="commands reveal">
+<section
+  id="commands"
+  class="commands reveal"
+>
 
   <div class="section-title">
+
     <h2>Popular Commands</h2>
-    <p>Search and explore commands.</p>
+
+    <p>
+      Search and explore commands.
+    </p>
+
   </div>
 
   <input
@@ -228,7 +302,10 @@
     placeholder="Search commands..."
   >
 
-  <div class="commands-grid" id="commandsGrid">
+  <div
+    class="commands-grid"
+    id="commandsGrid"
+  >
 
     <div class="command-card glass-card">
       <span>!fish</span>
@@ -265,11 +342,14 @@
 </section>
 
 <footer>
+
   <p>
     © 2026 Kaju Bot • Ocean Adventure Experience
   </p>
+
 </footer>
 
-<script src="script.js"></script>
+<script src="script.js?v=2"></script>
+
 </body>
 </html>
